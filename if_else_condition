@@ -1,0 +1,30 @@
+<?php
+
+//Control Structures in PHP
+//Understand and implement.
+// if, else, elseif
+
+$name = 5;
+
+if($name == 10){
+  echo "yes this is same number";
+} else {
+  echo " No, This is not same";
+}
+
+
+$age = 18;
+
+if ($age >= 18) {
+    if ($age <= 65) {
+        echo "Haan, aap vote kar sakte hain.";
+    } else {
+        echo "Aapki age ho chuki hai, aap vote nahi kar sakte.";
+    }
+} else {
+    if ($age == 17) {
+        echo "Abhi aapki age nahi hui hai, aap vote nahi kar sakte.";
+    } else {
+        echo "Aap vote nahi kar sakte.";
+    }
+}
